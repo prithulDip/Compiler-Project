@@ -1,0 +1,48 @@
+bring stdio.h
+
+HERE
+BEGINN 
+number a,b,c!
+floating x!
+line aad!
+x --> 10!
+b -->30!
+a -->20!
+c --> SUB(2,3) !
+c --> MUL(a,b) !
+c --> DIV(a,b) !
+c --> ADD(a,b) !
+c --> 3 POW 4!
+c--> ADD(ADD(3,4),b)!
+
+x --> SIN(90)!
+x --> COS(90)!
+x --> TAN(90)!
+x --> LOG10(2)!
+x --> LOG(3)!
+
+SHOW(x)!
+SHOW(b)!
+
+IF(b=30){ADD(3,2)}
+IF(b=31){ADD(3,2)} ELSE{ADD(3,3)}
+
+IF(b GREATER 20){ADD(3,2)}
+IF(b LESSER 40){ADD(3,2)}
+
+a--> MAX(10,15)!
+a--> GCD(10,15)!
+
+FOR(3!10!2)!
+FOR(30!10!-2)!
+
+SHOW(a)!
+FOR(a!40!5)!
+
+aad --> "hello! I am 1807037"! 
+SHOW(aad)!
+
+/CMNT/ IF(b=30){ADD(3,2)} ELSEIF(b=30){ADD(8,2)} ELSE{ADD(3,3)} a--> MIN(10,15)!  /END/
+
+
+END
